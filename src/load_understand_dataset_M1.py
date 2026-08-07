@@ -172,3 +172,14 @@ except FileNotFoundError:
    print(f"Error: The file at '{file_path}' was not found.")
 except Exception as e:
    print(f"An error occurred: {e}")
+
+
+def duplicate_count(df):
+   return df.duplicated().sum()
+
+
+if __name__ == "__main__":
+   # Testing code only
+   df = pd.read_csv("...")
+   plt.hist(df["CGPA"])
+   plt.show()
