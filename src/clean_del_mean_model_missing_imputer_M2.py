@@ -703,7 +703,6 @@ else:
 # COMPLETION MESSAGE
 # ============================================================
 
-
 print("\n" + "=" * 70)
 print("PROCESS COMPLETED SUCCESSFULLY")
 print("=" * 70)
